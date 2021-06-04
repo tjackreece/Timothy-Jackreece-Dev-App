@@ -1,0 +1,21 @@
+{
+	"name": "Timothy-Jackreece-Dev-App",
+	"version": "1.0.0",
+	"scripts": {
+		"start": "node index.js",
+		"server": "nodemon index.js",
+		"heroku-postbuild": "cd client && npm i && npm run build"
+	},
+	"license": "ISC",
+	"homepage": "https://github.com/tjackreece/Timothy-Jackreece-Dev-App#readme",
+	"devDependencies": {
+		"eslint": "^7.27.0",
+		"eslint-plugin-react": "^7.24.0",
+		"nodemon": "^2.0.7"
+	},
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^10.0.0",
+		"express": "^4.17.1"
+	}
+}
